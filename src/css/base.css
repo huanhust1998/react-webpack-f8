@@ -1,0 +1,18 @@
+.recently-text-logo {
+  height: 70px;
+  margin: 0;
+}
+
+.recently-text-login {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.recently-text-click {
+  padding-bottom: 12px;
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}

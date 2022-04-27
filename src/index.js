@@ -1,18 +1,11 @@
-import React from 'react' // nạp thư viện react
-import ReactDOM from 'react-dom' // nạp thư viện react-dom
-
-// Tạo component App
-function App() {
-    return (
-        <div>
-            <h1>Xin chào anh em F8! Tôi test chut thôi</h1>
-            <h1>Xin chào anh em F8! Tôi test chut thôi</h1>
-            <h1>Xin chào anh em F8! Tôi test chut thôi</h1>
-            <h1>Xin chào anh em F8! Tôi test chut thôi</h1>
-        </div>
-    )
-}
+import React from "react"; // nạp thư viện react
+import ReactDOM from "react-dom"; // nạp thư viện react-dom
+import App from "./App";
 
 // Render component App vào #root element
-ReactDOM.render(<App />, document.getElementById('root'))
-
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
