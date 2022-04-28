@@ -1,6 +1,12 @@
+.main_login {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .recently-text-logo {
   height: 70px;
-  margin: 0;
+  margin-left: -24px;
 }
 
 .recently-text-login {
@@ -8,6 +14,7 @@
   line-height: 28px;
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
+
 .recently-text-click {
   padding-bottom: 12px;
   color: #606770;
@@ -15,4 +22,32 @@
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 12px;
+}
+
+.img_login {
+  border-radius: 5px;
+}
+
+.img_login-img{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.img_login-delete {
+  margin-bottom: -20px;
+}
+
+.img_login-name {
+  color: #4b4f56;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 136px;
+  padding: 12px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.login{
+  display: flex;
+  justify-content: space-between;
 }
