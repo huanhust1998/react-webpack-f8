@@ -4,3 +4,7 @@ babel-loader: Cho phép chuyển các files Javascript sử dụng Babel và Web
 babel-preset-env: Cài đặt sẵn giúp bạn sử dụng Javascript mới nhất trên nhiều môi trường khác nhau(nhiều trình duyệt khác nhau). 
 Gói này đơn giản là support chuyển đổi ES6, ES7, ES8, ES... về ES5.
 babel-preset-react: Hỗ trợ chuyển đổi JSX về Javascript.
+
+II, Webpack
+webpack-cli: để chạy các lệnh webpack.
+webpack-dev-server: để chạy react locally.
